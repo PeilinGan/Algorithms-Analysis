@@ -1,5 +1,4 @@
-#include "project1.h"
-
+#include "index.h"
 
 void insertion_sort(std::vector<int>& nums)
 {

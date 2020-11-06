@@ -1,5 +1,5 @@
-#include "project2.h"
-
+#include "index.h"
+#include <iostream>
 
 void create_csv_file(string filename)
 {
@@ -9,7 +9,7 @@ void create_csv_file(string filename)
     f.close();
 }
 
-void add_waste_to_file(int size,double waste, string filename)
+void add_waste_to_file(int size, double waste, string filename)
 {
     ofstream f;
     f.open(filename, ios::app);
